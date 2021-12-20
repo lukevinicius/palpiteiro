@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
   :root {
-    --primary:      #00A1FE;
+    --primary:      #2EBC81;
     --primaryDark:  #283CA5;
     --secundary:    #212121;
     --success:      #43A047;
@@ -15,6 +15,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   * {
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
     padding: 0;
     box-sizing: border-box;
   }
@@ -31,11 +32,15 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
   }
   border-style, input, textarea, button {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
   }
-  h1, h2, h3, h4, h5, h6, strong {
-    font-family: 'Montserrat', sans-serif;
+  h5, h6, strong {
+    font-weight: 500;
+  }
+  h3, h4 {
+    font-weight: 600;
+  }
+  h1, h2 {
     font-weight: 700;
   }
   button {
