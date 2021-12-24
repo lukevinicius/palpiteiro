@@ -20,7 +20,7 @@ export function Plans() {
             Lucro garantido ou sua renovação é por nossa conta
           </h2>
         </Col>
-        <Col md={3}>
+        <Col md={3} style={{ marginTop: '10px' }}>
           <Card>
             <div style={{ textAlign: 'center' }}>
               <img src={logoPro} alt="logoPro" />
@@ -150,7 +150,7 @@ export function Plans() {
             </div>
           </Card>
         </Col>
-        <Col md={3}>
+        <Col md={3} style={{ marginTop: '10px' }}>
           <CardDisabled>
             <div style={{ textAlign: 'center' }}>
               <img src={logoEsports} alt="logoEsports" />
@@ -275,7 +275,7 @@ export function Plans() {
                   width: '60%',
                 }}
               >
-                <h2>ASSINE JÁ</h2>
+                <h2>EM BREVE</h2>
               </Button>
             </div>
           </CardDisabled>

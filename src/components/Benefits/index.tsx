@@ -1,5 +1,5 @@
 import { Col, Row } from 'react-bootstrap';
-import { Card, DivCol, CardTitle, Div, H2 } from './styles';
+import { Card, DivCol, CardTitle, Div, H2, Image } from './styles';
 
 import pizzaGraph from '../../assets/icons/pizzaGraph.png';
 import faq from '../../assets/icons/faq.png';
@@ -27,7 +27,7 @@ export function Benefits() {
         </Col>
         <Col md={6}>
           <Row>
-            <Col sm={2} md={4}>
+            <Col sm={1} md={4}>
               <DivCol>
                 <Card>
                   <CardTitle>
@@ -130,11 +130,18 @@ export function Benefits() {
           </Row>
         </Col>
         <Col md={2} style={{ position: 'relative' }}>
-          <img
-            src={skinLike}
-            alt="skinLike"
-            style={{ position: 'absolute', top: '20%' }}
-          />
+          {
+            // eslint-disable-next-line no-restricted-globals
+            screen.width > 768 ? (
+              <img
+                src={skinLike}
+                alt="skinLike"
+                style={{ position: 'absolute', top: '20%' }}
+              />
+            ) : (
+              <div />
+            )
+          }
         </Col>
       </Row>
     </Div>
