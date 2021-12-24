@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import skinLike from '../../assets/leprechaun/skinLike.png';
 
 export const Div = styled.div`
-  padding: 50px 80px 50px 80px;
+  padding: 50px 0px 50px 80px;
   background: var(--shape);
   @media screen and (max-width: 768px) {
     padding: 20px 40px 20px 40px;
@@ -29,8 +29,8 @@ export const H2 = styled.h2`
 `;
 export const Image = styled.div`
   @media screen and (min-width: 768px) {
-    position: absolute;
-    top: 20%;
     background-image: url(${skinLike});
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 `;

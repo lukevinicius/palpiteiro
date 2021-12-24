@@ -1,11 +1,17 @@
 import { Benefits } from '../../components/Benefits';
 import { Contact } from '../../components/Contact';
+import { Country } from '../../components/Country';
 import { Plans } from '../../components/Plans';
+import { Div, DivImage } from './styles';
 
 export function Home() {
   return (
     <>
-      <h2>Home</h2>
+      <Div>
+        <DivImage>
+          <Country />
+        </DivImage>
+      </Div>
       <Benefits />
       <Plans />
       <Contact />
