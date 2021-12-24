@@ -11,9 +11,16 @@ export function FAQ() {
         Ficou com alguma dúvida?
       </h2>
       <Row>
-        <Col>
-          <img src={skinHat} alt="" />
-        </Col>
+        {
+          // eslint-disable-next-line no-restricted-globals
+          screen.width > 768 ? (
+            <Col>
+              <img src={skinHat} alt="skinHat" />{' '}
+            </Col>
+          ) : (
+            <div />
+          )
+        }
         <Col>
           <h2 style={{ color: 'var(--shape)' }}>Perguntas Frequentes</h2>
           <Accordion defaultActiveKey="0" flush>
