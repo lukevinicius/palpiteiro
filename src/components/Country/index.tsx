@@ -1,4 +1,3 @@
-import { Col, Row } from 'react-bootstrap';
 import { Div } from './styles';
 
 export function Country() {

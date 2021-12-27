@@ -1,5 +1,5 @@
 import { Col, Row } from 'react-bootstrap';
-import { Card, DivCol, CardTitle, Div, H2, Image } from './styles';
+import { Card, DivCol, CardTitle, Div, H2 } from './styles';
 
 import pizzaGraph from '../../assets/icons/pizzaGraph.png';
 import faq from '../../assets/icons/faq.png';
