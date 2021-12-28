@@ -14,6 +14,10 @@ export const Card = styled.div`
   border-radius: 7px;
   height: 190px;
   width: 190px;
+  @media screen and (max-width: 768px) {
+    height: 170px;
+    width: 190px;
+  }
 `;
 export const DivCol = styled.div`
   margin-bottom: 20px;

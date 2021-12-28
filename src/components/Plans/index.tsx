@@ -1,5 +1,5 @@
 import { Col, Row } from 'react-bootstrap';
-import { Card, CardDisabled, Div } from './styles';
+import { Card, CardDisabled, Div, H2 } from './styles';
 
 import logoPro from '../../assets/logos/logoPro.png';
 import logoEsports from '../../assets/logos/logoEsports.png';
@@ -16,9 +16,7 @@ export function Plans() {
     <Div>
       <Row>
         <Col md={6}>
-          <h2 style={{ color: 'var(--primary)', fontSize: '72px' }}>
-            Lucro garantido ou sua renovação é por nossa conta
-          </h2>
+          <H2>Lucro garantido ou sua renovação é por nossa conta</H2>
         </Col>
         <Col md={3} style={{ marginTop: '10px' }}>
           <Card>

@@ -7,6 +7,13 @@ export const Div = styled.div`
     padding: 20px 40px 20px 40px;
   }
 `;
+export const H2 = styled.h2`
+  color: var(--primary);
+  font-size: 72px;
+  @media screen and (max-width: 768px) {
+    font-size: 36px;
+  }
+`;
 export const Card = styled.div`
   background: var(--primary);
   padding: 10px;
