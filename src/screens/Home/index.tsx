@@ -4,7 +4,7 @@ import { Country } from '../../components/Country';
 import { FAQ } from '../../components/FAQ';
 import { Plans } from '../../components/Plans';
 import { VideoApresentation } from '../../components/VideoApresentation';
-import { Div, DivGreen, DivImage } from './styles';
+import { Div, DivGreen } from './styles';
 
 export function Home() {
   return (

@@ -1,6 +1,4 @@
-import { Col, Row } from 'react-bootstrap';
 import { Div, H2 } from './styles';
-import backBrasil from '../../assets/images/backBrasil.png';
 
 export function Country() {
   return (
