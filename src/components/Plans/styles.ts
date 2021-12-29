@@ -7,9 +7,11 @@ export const Div = styled.div`
     padding: 20px 40px 20px 40px;
   }
 `;
-export const H2 = styled.h2`
+export const H2 = styled.b`
   color: var(--primary);
-  font-size: 72px;
+  text-align: justify;
+  font-size: 80px;
+  line-height: 1;
   @media screen and (max-width: 768px) {
     font-size: 36px;
   }

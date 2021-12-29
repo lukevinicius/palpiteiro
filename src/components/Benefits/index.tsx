@@ -1,5 +1,5 @@
 import { Col, Row } from 'react-bootstrap';
-import { Card, DivCol, CardTitle, Div, H2 } from './styles';
+import { Card, DivCol, CardTitle, Div, H2, SubTitle } from './styles';
 
 import pizzaGraph from '../../assets/icons/pizzaGraph.png';
 import faq from '../../assets/icons/faq.png';
@@ -17,17 +17,15 @@ export function Benefits() {
     <Div>
       <Row>
         <Col md={4}>
-          <H2 style={{ fontSize: '64px' }}>
-            Vantagens que só o palpiteiro o oferece!
-          </H2>
-          <p style={{ color: 'var(--text)', fontSize: '30px' }}>
+          <H2>Vantagens que só o palpiteiro o oferece!</H2>
+          <SubTitle style={{ fontSize: '26px' }}>
             Seja via computador ou smartphone, tenha 100% de autonomia, traga
             seu negocio para gente agora.
-          </p>
+          </SubTitle>
         </Col>
         <Col md={6}>
           <Row>
-            <Col sm={1} md={4}>
+            <Col md={4}>
               <DivCol>
                 <Card>
                   <CardTitle>
@@ -37,7 +35,7 @@ export function Benefits() {
                 </Card>
               </DivCol>
             </Col>
-            <Col sm={2} md={4}>
+            <Col md={4}>
               <DivCol>
                 <Card>
                   <CardTitle>
@@ -47,7 +45,7 @@ export function Benefits() {
                 </Card>
               </DivCol>
             </Col>
-            <Col sm={2} md={4}>
+            <Col md={4}>
               <DivCol>
                 <Card>
                   <CardTitle>

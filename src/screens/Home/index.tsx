@@ -14,9 +14,7 @@ export function Home() {
         <VideoApresentation />
       </DivGreen>
       <Div>
-        <DivImage>
-          <Country />
-        </DivImage>
+        <Country />
       </Div>
       <Plans />
       <FAQ />

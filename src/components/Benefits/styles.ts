@@ -15,21 +15,35 @@ export const Card = styled.div`
   height: 190px;
   width: 190px;
   @media screen and (max-width: 768px) {
+    text-align: center;
     height: 170px;
-    width: 190px;
+    width: 100%;
   }
 `;
 export const DivCol = styled.div`
   margin-bottom: 20px;
   @media (max-width: 1024px) {
-    margin-right: 30px;
   }
 `;
 export const CardTitle = styled.div`
   margin: 15px 20px 15px 0;
 `;
-export const H2 = styled.h2`
+export const H2 = styled.b`
   color: var(--primary);
+  text-align: justify;
+  font-size: 70px;
+  line-height: 1;
+  @media screen and (max-width: 768px) {
+    font-size: 36px;
+  }
+`;
+export const SubTitle = styled.p`
+  color: var(--text)
+  font-size: 58px;
+  text-align: justify;
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+  }
 `;
 export const Image = styled.div`
   @media screen and (min-width: 768px) {

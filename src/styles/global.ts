@@ -40,7 +40,7 @@ export const GlobalStyle = createGlobalStyle`
   h3, h4 {
     font-weight: 600;
   }
-  h1, h2 {
+  h1, h2, b {
     font-weight: 700;
   }
   button {
