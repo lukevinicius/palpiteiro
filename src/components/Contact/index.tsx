@@ -3,7 +3,7 @@ import { Button, Div, DivSecundary, H2, Input, TextArea } from './styles';
 
 export function Contact() {
   return (
-    <Div>
+    <Div id="parceiro">
       <DivSecundary>
         <Row>
           <Col>

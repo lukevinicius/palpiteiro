@@ -4,7 +4,7 @@ import skinHat from '../../assets/leprechaun/skinHat.png';
 
 export function FAQ() {
   return (
-    <Div>
+    <Div id="duvidas">
       <h2
         style={{ fontSize: '50px', textAlign: 'center', color: 'var(--shape)' }}
       >

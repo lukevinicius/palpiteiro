@@ -28,7 +28,7 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
   body {
-    background-color: var(--background) ;
+    background-color: var(--shape) ;
     -webkit-font-smoothing: antialiased;
   }
   border-style, input, textarea, button {

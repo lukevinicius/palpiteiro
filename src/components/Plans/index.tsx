@@ -13,7 +13,7 @@ import { Button } from '../Contact/styles';
 
 export function Plans() {
   return (
-    <Div>
+    <Div id="planos">
       <Row>
         <Col md={6}>
           <H2>Lucro garantido ou sua renovação é por nossa conta</H2>
