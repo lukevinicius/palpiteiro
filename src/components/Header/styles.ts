@@ -14,17 +14,16 @@ export const B = styled.b`
   font-size: 18px;
   color: var(--primary);
 `;
-export const Button = styled.b`
-  background-color: transparent;
+export const Button = styled.div`
+  background: var(--primary);
   text-align: center;
-  padding: 5px 15px;
+  padding: 10px 20px;
   border: 1px solid var(--primary);
-  border-radius: 40px;
-  font-size: 18px;
-  color: var(--primary);
-  width: 130%;
-  :hover {
-    color: var(--shape);
-    background: var(--primary);
-  }
+  border-radius: 6px;
+  font-size: 15px;
+  color: var(--shape);
+  /* :hover {
+    color: var(--text);
+    background: var(--shape);
+  } */
 `;

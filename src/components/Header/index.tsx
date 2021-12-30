@@ -20,24 +20,19 @@ export function Header() {
         >
           <Nav style={{ alignItems: 'center' }}>
             <Nav.Link href="#home" style={{ color: 'var(--primary)' }}>
-              <B>HOME</B>
+              <B>SOBRE</B>
             </Nav.Link>
-            <Nav.Link
-              eventKey={2}
-              href="#duvidas"
-              style={{ color: 'var(--primary)' }}
-            >
-              <B>DUVIDAS FREQUENTES</B>
-            </Nav.Link>
-            <Nav.Link
-              eventKey={3}
-              href="#planos"
-              style={{ color: 'var(--primary)' }}
-            >
+            <Nav.Link href="#planos" style={{ color: 'var(--primary)' }}>
               <B>PLANOS</B>
             </Nav.Link>
-            <Nav.Link eventKey={3} href="#parceiro">
-              <Button>SEJA PARCEIRO</Button>
+            <Nav.Link href="#duvidas" style={{ color: 'var(--primary)' }}>
+              <B>DUVIDAS FREQUENTES</B>
+            </Nav.Link>
+            <Nav.Link href="#parceiro" style={{ color: 'var(--primary)' }}>
+              <B>SEJA PARCEIRO</B>
+            </Nav.Link>
+            <Nav.Link href="#planos">
+              <Button>ASSINAR AGORA!</Button>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

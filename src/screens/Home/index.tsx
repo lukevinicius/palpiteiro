@@ -9,13 +9,23 @@ import { Div, DivGreen } from './styles';
 export function Home() {
   return (
     <>
+      <Div>
+        <div
+          style={{
+            position: 'absolute',
+            top: '50%',
+          }}
+        >
+          <h2 style={{ color: 'var(--primary)' }}>Site em desenvolvimento</h2>
+        </div>
+      </Div>
       <Benefits />
       <DivGreen>
         <VideoApresentation />
       </DivGreen>
-      <Div>
+      <div style={{ backgroundColor: 'var(--shape)' }}>
         <Country />
-      </Div>
+      </div>
       <Plans />
       <FAQ />
       <Contact />
