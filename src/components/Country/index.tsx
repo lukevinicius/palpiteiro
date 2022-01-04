@@ -14,9 +14,13 @@ export function Country() {
             anos!
           </p>
         </Col>
-        <Col md={6}>
-          <img src={backBrasil} alt="backBrasil" />
-        </Col>
+        {window.screen.width > 738 ? (
+          <Col md={6}>
+            <img src={backBrasil} alt="backBrasil" />
+          </Col>
+        ) : (
+          <div />
+        )}
       </Row>
     </Div>
   );
