@@ -1,6 +1,7 @@
 import { Benefits } from '../../components/Benefits';
 import { Contact } from '../../components/Contact';
 import { Country } from '../../components/Country';
+import { EasyPay } from '../../components/EasyPay';
 import { FAQ } from '../../components/FAQ';
 import { Plans } from '../../components/Plans';
 import { VideoApresentation } from '../../components/VideoApresentation';
@@ -26,6 +27,7 @@ export function Home() {
       <div style={{ backgroundColor: 'var(--shape)' }}>
         <Country />
       </div>
+      <EasyPay />
       <Plans />
       <FAQ />
       <Contact />
