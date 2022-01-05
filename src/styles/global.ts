@@ -31,7 +31,7 @@ export const GlobalStyle = createGlobalStyle`
     background-color: var(--shape) ;
     -webkit-font-smoothing: antialiased;
   }
-  border-style, input, textarea, button {
+  border-style, input, textarea, button, p {
     font-weight: 400;
   }
   h5, h6, strong {
