@@ -17,8 +17,8 @@ export function EasyPay() {
       </div>
       <DivCard>
         <Row>
-          <Col md={3} />
-          <Col md={6} sm={1}>
+          <Col md={2} />
+          <Col md={8}>
             <Row>
               <Col>
                 <Card>
@@ -40,7 +40,7 @@ export function EasyPay() {
               </Col>
             </Row>
           </Col>
-          <Col md={3} />
+          <Col md={2} />
         </Row>
       </DivCard>
     </Div>
