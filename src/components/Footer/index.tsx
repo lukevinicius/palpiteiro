@@ -15,7 +15,7 @@ export function Footer() {
       <Row>
         <Col>
           <img src={LogoHorizontal} alt="Logo" />
-          <H2 style={{ fontSize: '18px', textAlign: 'justify' }}>
+          <H2 style={{ textAlign: 'justify' }}>
             Os resultados referentes ao conteúdo dos serviços de TIP’s dos
             grupos VIP da Lance Milionário são avaliados e comprovados por
             nossos alunos. Não garantimos resultados IGUAIS para todos, uma vez
@@ -24,7 +24,7 @@ export function Footer() {
             segurança sobre o capital dos alunos utilizados em suas casas de
             apostas. Não nos responsabilizados por{' '}
           </H2>
-          <H2 style={{ marginTop: '20px', fontSize: '18px' }}>
+          <H2>
             &copy; {new Date().getFullYear()} Todos os direitos reservados -
             Grupo Palpiteiro
           </H2>
@@ -34,39 +34,35 @@ export function Footer() {
           <H2 style={{ fontSize: '36px', color: 'var(--primary)' }}>
             7-495-1234567
           </H2>
-          <H2 style={{ fontSize: '18px', marginTop: '20px' }}>
-            Av. Paulista, 777 - 15º andar, São Paulo, Brasil
-          </H2>
-          <H2 style={{ fontSize: '18px', marginTop: '20px' }}>
-            Segunda a Sexta 8:00 - 17:00, Sábado 9:00 - 12:00
-          </H2>
-          <Row style={{ marginTop: '20px' }}>
-            <Col>
-              <a href="google.com">
-                <FaInstagram size={50} style={{ color: 'var(--primary)' }} />
+          <H2>Av. Paulista, 777 - 15º andar, São Paulo, Brasil</H2>
+          <H2>Segunda a Sexta 8:00 - 17:00, Sábado 9:00 - 12:00</H2>
+          <div className="d-flex" style={{ marginTop: '20px' }}>
+            <div>
+              <a href="https://www.instagram.com/opalpiteirooficial/">
+                <FaInstagram size={50} />
               </a>
-            </Col>
-            <Col>
+            </div>
+            <div>
               <a href="google.com">
-                <FaFacebookF size={50} style={{ color: 'var(--primary)' }} />
+                <FaFacebookF size={50} />
               </a>
-            </Col>
-            <Col>
+            </div>
+            <div>
               <a href="google.com">
-                <FaTwitter size={50} style={{ color: 'var(--primary)' }} />
+                <FaTwitter size={50} />
               </a>
-            </Col>
-            <Col>
+            </div>
+            <div>
               <a href="google.com">
-                <FaWhatsapp size={50} style={{ color: 'var(--primary)' }} />
+                <FaWhatsapp size={50} />
               </a>
-            </Col>
-            <Col>
+            </div>
+            <div>
               <a href="google.com">
-                <FaYoutube size={50} style={{ color: 'var(--primary)' }} />
+                <FaYoutube size={50} />
               </a>
-            </Col>
-          </Row>
+            </div>
+          </div>
         </Col>
       </Row>
     </Div>

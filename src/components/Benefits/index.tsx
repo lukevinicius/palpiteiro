@@ -16,7 +16,7 @@ export function Benefits() {
   return (
     <Div>
       <Row>
-        <Col md={4} style={{ marginRight: '1.5rem' }}>
+        <Col md={4}>
           <H2>Vantagens que só o palpiteiro o oferece!</H2>
           <SubTitle>
             Seja via computador ou smartphone, tenha 100% de autonomia, traga

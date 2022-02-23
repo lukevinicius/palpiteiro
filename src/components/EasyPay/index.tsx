@@ -1,5 +1,5 @@
 import { Col, Row } from 'react-bootstrap';
-import { Card, Div, DivCard, H2 } from './styles';
+import { Card, Div, H2 } from './styles';
 
 import pixPay from '../../assets/easyPay/pixPay.png';
 import boleto from '../../assets/easyPay/boleto.png';
@@ -15,7 +15,7 @@ export function EasyPay() {
           melhor lhe atender.
         </p>
       </div>
-      <DivCard>
+      <div>
         <Row>
           <Col md={4}>
             <Card>
@@ -36,7 +36,7 @@ export function EasyPay() {
             </Card>
           </Col>
         </Row>
-      </DivCard>
+      </div>
     </Div>
   );
 }

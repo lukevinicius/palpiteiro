@@ -9,10 +9,6 @@ export const Div = styled.div`
   }
 `;
 
-export const DivCard = styled.div`
-  color: var(--shape);
-`;
-
 export const H2 = styled.b`
   color: var(--primary);
   font-size: 80px;
@@ -39,6 +35,7 @@ export const Card = styled.div`
   }
 
   p {
+    color: var(--shape);
     margin: 30px 0;
     text-align: justify;
   }
