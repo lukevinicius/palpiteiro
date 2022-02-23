@@ -54,7 +54,7 @@ export function FAQ() {
               {accordionData.map(({ title, content }) => (
                 <>
                   <Hr />
-                  <Accordion title={title} content={content} />
+                  <Accordion key={title} title={title} content={content} />
                 </>
               ))}
               <Hr />

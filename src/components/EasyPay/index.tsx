@@ -10,37 +10,31 @@ export function EasyPay() {
     <Div>
       <div style={{ textAlign: 'center' }}>
         <H2>Pague facil</H2>
-        <p style={{ fontSize: '26px', margin: '0 10px 0 10px' }}>
+        <p style={{ fontSize: '26px', margin: '0 10px' }}>
           Disponibilizamos as melhores formas de pagamento do mercado para
           melhor lhe atender.
         </p>
       </div>
       <DivCard>
         <Row>
-          <Col md={2} />
-          <Col md={8}>
-            <Row>
-              <Col>
-                <Card>
-                  <img src={pixPay} alt="pixpay" />
-                  <P>Pagamentos via Pix!</P>
-                </Card>
-              </Col>
-              <Col>
-                <Card>
-                  <img src={cards} alt="cards" />
-                  <P>Pagamentos via cartão de credito em até 12x sem juros</P>
-                </Card>
-              </Col>
-              <Col>
-                <Card>
-                  <img src={boleto} alt="boleto" />
-                  <P>Pagamentos via boleto</P>
-                </Card>
-              </Col>
-            </Row>
+          <Col md={4}>
+            <Card>
+              <img src={pixPay} alt="pixpay" />
+              <p>Pagamentos via Pix!</p>
+            </Card>
           </Col>
-          <Col md={2} />
+          <Col md={4}>
+            <Card>
+              <img src={cards} alt="cards" />
+              <p>Pagamentos via cartão de credito em até 12x sem juros</p>
+            </Card>
+          </Col>
+          <Col md={4}>
+            <Card>
+              <img src={boleto} alt="boleto" />
+              <p>Pagamentos via boleto</p>
+            </Card>
+          </Col>
         </Row>
       </DivCard>
     </Div>

@@ -10,23 +10,24 @@ export const Div = styled.div`
 `;
 export const Card = styled.div`
   background-color: #e5e5e5;
-  padding: 10px;
+  padding: 1rem;
   border-radius: 7px;
   height: 190px;
   width: 190px;
+  margin-bottom: 1rem;
   @media screen and (max-width: 768px) {
     text-align: center;
     height: 170px;
     width: 100%;
+
+    p {
+      font-size: 14px;
+    }
   }
-`;
-export const DivCol = styled.div`
-  margin-bottom: 20px;
-  @media (max-width: 1024px) {
+
+  p {
+    font-size: 18px;
   }
-`;
-export const CardTitle = styled.div`
-  margin: 15px 20px 15px 0;
 `;
 export const H2 = styled.b`
   color: var(--primary);
@@ -38,8 +39,8 @@ export const H2 = styled.b`
   }
 `;
 export const SubTitle = styled.p`
-  color: var(--text)
-  font-size: 58px;
+  color: var(--text);
+  font-size: 26px;
   text-align: justify;
   @media screen and (max-width: 768px) {
     font-size: 20px;
