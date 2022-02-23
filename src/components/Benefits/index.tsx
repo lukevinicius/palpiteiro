@@ -15,7 +15,7 @@ import skinLike from '../../assets/leprechaun/skinLike.png';
 export function Benefits() {
   return (
     <Div>
-      <div className="d-flex">
+      <Row>
         <Col md={4} style={{ marginRight: '1.5rem' }}>
           <H2>Vantagens que só o palpiteiro o oferece!</H2>
           <SubTitle>
@@ -95,7 +95,7 @@ export function Benefits() {
             )
           }
         </Col>
-      </div>
+      </Row>
     </Div>
   );
 }

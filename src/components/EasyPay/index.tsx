@@ -1,5 +1,5 @@
 import { Col, Row } from 'react-bootstrap';
-import { Card, Div, DivCard, H2, P } from './styles';
+import { Card, Div, DivCard, H2 } from './styles';
 
 import pixPay from '../../assets/easyPay/pixPay.png';
 import boleto from '../../assets/easyPay/boleto.png';
