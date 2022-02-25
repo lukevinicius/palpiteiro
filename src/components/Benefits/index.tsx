@@ -1,3 +1,5 @@
+import { useEffect, useState } from 'react';
+
 import { Col, Row } from 'react-bootstrap';
 import { Card, Div, H2, SubTitle } from './styles';
 
@@ -13,6 +15,18 @@ import barChart from '../../assets/icons/barChart.png';
 import skinLike from '../../assets/leprechaun/skinLike.png';
 
 export function Benefits() {
+  const [width, setWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResizeWindow = () => setWidth(window.innerWidth);
+    // subscribe to window resize event "onComponentDidMount"
+    window.addEventListener('resize', handleResizeWindow);
+    return () => {
+      // unsubscribe "onComponentDestroy"
+      window.removeEventListener('resize', handleResizeWindow);
+    };
+  });
+
   return (
     <Div>
       <Row>
@@ -84,14 +98,14 @@ export function Benefits() {
         <Col md={2} style={{ position: 'relative' }}>
           {
             // eslint-disable-next-line no-restricted-globals
-            screen.width > 900 ? (
+            width > 1190 ? (
               <img
                 src={skinLike}
                 alt="skinLike"
                 style={{ position: 'absolute', top: '20%' }}
               />
             ) : (
-              <div />
+              <></>
             )
           }
         </Col>

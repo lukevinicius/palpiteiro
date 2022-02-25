@@ -1,9 +1,9 @@
 import { Col, Form, Row } from 'react-bootstrap';
-import { Button, Div, DivSecundary, H2, Input, TextArea } from './styles';
+import { Button, Container, DivSecundary, H2, Input, TextArea } from './styles';
 
 export function Contact() {
   return (
-    <Div id="parceiro">
+    <Container id="parceiro">
       <DivSecundary>
         <Row>
           <Col>
@@ -29,6 +29,6 @@ export function Contact() {
           </Col>
         </Row>
       </DivSecundary>
-    </Div>
+    </Container>
   );
 }

@@ -1,7 +1,10 @@
+import { useEffect, useState } from 'react';
+
 import { Col, Row } from 'react-bootstrap';
 import { Div, DivAccordion, Hr } from './styles';
-import skinHat from '../../assets/leprechaun/skinHat.png';
 import { Accordion } from '../Accordion';
+
+import skinHatImg from '../../assets/leprechaun/skinHat.png';
 
 export function FAQ() {
   const accordionData = [
@@ -28,6 +31,17 @@ export function FAQ() {
       dolor ut sequi minus iste? Quas?`,
     },
   ];
+  const [width, setWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResizeWindow = () => setWidth(window.innerWidth);
+    // subscribe to window resize event "onComponentDidMount"
+    window.addEventListener('resize', handleResizeWindow);
+    return () => {
+      // unsubscribe "onComponentDestroy"
+      window.removeEventListener('resize', handleResizeWindow);
+    };
+  });
 
   return (
     <Div id="duvidas">
@@ -39,16 +53,16 @@ export function FAQ() {
       <Row>
         {
           // eslint-disable-next-line no-restricted-globals
-          screen.width > 768 ? (
+          width > 1190 ? (
             <Col>
-              <img src={skinHat} alt="skinHat" />{' '}
+              <img src={skinHatImg} alt="skinHat" />{' '}
             </Col>
           ) : (
-            <div />
+            <></>
           )
         }
-        <Col md={7}>
-          <div style={{ padding: '80px 0 80px 0' }}>
+        <Col>
+          <div style={{ padding: '80px 0' }}>
             <h1 style={{ color: 'var(--shape)' }}>Duvidas frequentes</h1>
             <DivAccordion>
               {accordionData.map(({ title, content }) => (

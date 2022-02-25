@@ -1,3 +1,5 @@
+import { useEffect, useState } from 'react';
+
 import { Benefits } from '../../components/Benefits';
 import { Contact } from '../../components/Contact';
 import { Country } from '../../components/Country';
@@ -8,6 +10,18 @@ import { VideoApresentation } from '../../components/VideoApresentation';
 import { Div, DivGreen } from './styles';
 
 export function Home() {
+  const [width, setWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResizeWindow = () => setWidth(window.innerWidth);
+    // subscribe to window resize event "onComponentDidMount"
+    window.addEventListener('resize', handleResizeWindow);
+    return () => {
+      // unsubscribe "onComponentDestroy"
+      window.removeEventListener('resize', handleResizeWindow);
+    };
+  });
+
   return (
     <>
       <Div>
@@ -22,11 +36,9 @@ export function Home() {
       </Div>
       <Benefits />
       <DivGreen>
-        <VideoApresentation />
+        <VideoApresentation width={width} />
       </DivGreen>
-      <div style={{ backgroundColor: 'var(--shape)' }}>
-        <Country />
-      </div>
+      <Country width={width} />
       <EasyPay />
       <Plans />
       <FAQ />

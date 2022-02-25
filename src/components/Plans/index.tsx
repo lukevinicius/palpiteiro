@@ -18,108 +18,41 @@ export function Plans() {
         <Col md={6}>
           <H2>Lucro garantido ou sua renovação é por nossa conta</H2>
         </Col>
-        <Col md={3} style={{ marginTop: '10px' }}>
+        <Col md={3}>
           <Card>
             <div style={{ textAlign: 'center' }}>
               <img src={logoPro} alt="logoPro" />
             </div>
-            <div style={{ margin: '20px' }}>
-              <div className="d-flex" style={{ color: 'var(--shape)' }}>
-                <img
-                  src={crossHairWhite}
-                  alt="crossHair"
-                  height="25"
-                  width="25"
-                />
-                <h2
-                  style={{
-                    fontSize: '12px',
-                    marginTop: '2%',
-                    marginLeft: '5px',
-                  }}
-                >
-                  Pré bets e ao vivo
-                </h2>
-              </div>
-              <div className="d-flex" style={{ color: 'var(--shape)' }}>
-                <img src={faqWhite} alt="crossHair" height="25" width="25" />
-                <h2
-                  style={{
-                    fontSize: '12px',
-                    marginTop: '2%',
-                    marginLeft: '5px',
-                  }}
-                >
-                  Suporte online
-                </h2>
-              </div>
-              <div className="d-flex" style={{ color: 'var(--shape)' }}>
-                <img
-                  src={presentationWhite}
-                  alt="chart"
-                  height="25"
-                  width="25"
-                />
-                <h2
-                  style={{
-                    fontSize: '12px',
-                    marginTop: '2%',
-                    marginLeft: '5px',
-                  }}
-                >
-                  Consultoria e conteúdo gratuitos
-                </h2>
-              </div>
-              <div className="d-flex" style={{ color: 'var(--shape)' }}>
-                <img
-                  src={barChartWhite}
-                  alt="crossHair"
-                  height="25"
-                  width="25"
-                />
-                <h2
-                  style={{
-                    fontSize: '12px',
-                    marginTop: '2%',
-                    marginLeft: '5px',
-                  }}
-                >
-                  Gestão de ricos e acompanhamento transparente
-                </h2>
-              </div>
-              <div className="d-flex" style={{ color: 'var(--shape)' }}>
-                <img src={trophyWhite} alt="trophy" height="25" width="25" />
-                <h2
-                  style={{
-                    fontSize: '12px',
-                    marginTop: '2%',
-                    marginLeft: '5px',
-                  }}
-                >
-                  Eventos e prêmios
-                </h2>
-              </div>
-              <div className="d-flex" style={{ color: 'var(--shape)' }}>
-                <img
-                  src={moneyBagWhite}
-                  alt="crossHair"
-                  height="25"
-                  width="25"
-                />
-                <h2
-                  style={{
-                    fontSize: '12px',
-                    marginTop: '2%',
-                    marginLeft: '5px',
-                  }}
-                >
-                  Lucro garantido ou sua renovação é por nossa conta
-                </h2>
-              </div>
+            <div>
+              <img
+                src={crossHairWhite}
+                alt="crossHair"
+                height="25"
+                width="25"
+              />
+              <span>Pré bets e ao vivo</span>
             </div>
-            <hr
-              style={{ color: 'var(--shape)', height: '1px', opacity: '1' }}
-            />
+            <div>
+              <img src={faqWhite} alt="crossHair" height="25" width="25" />
+              <span>Suporte online</span>
+            </div>
+            <div>
+              <img src={presentationWhite} alt="chart" height="25" width="25" />
+              <span>Consultoria e conteúdo gratuitos</span>
+            </div>
+            <div>
+              <img src={barChartWhite} alt="crossHair" height="25" width="25" />
+              <span>Gestão de riscos e acompanhamento transparente</span>
+            </div>
+            <div>
+              <img src={trophyWhite} alt="trophy" height="25" width="25" />
+              <span>Eventos e prêmios</span>
+            </div>
+            <div>
+              <img src={moneyBagWhite} alt="crossHair" height="25" width="25" />
+              <span>Lucro garantido ou sua renovação é por nossa conta</span>
+            </div>
+            <hr />
             <div
               className="d-flex"
               style={{
@@ -133,9 +66,7 @@ export function Plans() {
               <h2 style={{ fontSize: '22px', marginTop: '13%' }}>,99/Mês</h2>
             </div>
             <div style={{ textAlign: 'center' }}>
-              <h6 style={{ fontSize: '12px', color: 'var(--shape)' }}>
-                Perfeito para pequenos negócios ou novos empresários
-              </h6>
+              <h6>Perfeito para pequenos negócios ou novos empresários</h6>
               <Button
                 style={{
                   color: 'var(--primary)',
@@ -148,108 +79,41 @@ export function Plans() {
             </div>
           </Card>
         </Col>
-        <Col md={3} style={{ marginTop: '10px' }}>
+        <Col md={3}>
           <CardDisabled>
             <div style={{ textAlign: 'center' }}>
               <img src={logoEsports} alt="logoEsports" />
             </div>
-            <div style={{ margin: '20px' }}>
-              <div className="d-flex" style={{ color: 'var(--shape)' }}>
-                <img
-                  src={crossHairWhite}
-                  alt="crossHair"
-                  height="25"
-                  width="25"
-                />
-                <h2
-                  style={{
-                    fontSize: '12px',
-                    marginTop: '2%',
-                    marginLeft: '5px',
-                  }}
-                >
-                  Pré bets e ao vivo
-                </h2>
-              </div>
-              <div className="d-flex" style={{ color: 'var(--shape)' }}>
-                <img src={faqWhite} alt="crossHair" height="25" width="25" />
-                <h2
-                  style={{
-                    fontSize: '12px',
-                    marginTop: '2%',
-                    marginLeft: '5px',
-                  }}
-                >
-                  Suporte online
-                </h2>
-              </div>
-              <div className="d-flex" style={{ color: 'var(--shape)' }}>
-                <img
-                  src={presentationWhite}
-                  alt="chart"
-                  height="25"
-                  width="25"
-                />
-                <h2
-                  style={{
-                    fontSize: '12px',
-                    marginTop: '2%',
-                    marginLeft: '5px',
-                  }}
-                >
-                  Consultoria e conteúdo gratuitos
-                </h2>
-              </div>
-              <div className="d-flex" style={{ color: 'var(--shape)' }}>
-                <img
-                  src={barChartWhite}
-                  alt="crossHair"
-                  height="25"
-                  width="25"
-                />
-                <h2
-                  style={{
-                    fontSize: '12px',
-                    marginTop: '2%',
-                    marginLeft: '5px',
-                  }}
-                >
-                  Gestão de ricos e acompanhamento transparente
-                </h2>
-              </div>
-              <div className="d-flex" style={{ color: 'var(--shape)' }}>
-                <img src={trophyWhite} alt="trophy" height="25" width="25" />
-                <h2
-                  style={{
-                    fontSize: '12px',
-                    marginTop: '2%',
-                    marginLeft: '5px',
-                  }}
-                >
-                  Eventos e prêmios
-                </h2>
-              </div>
-              <div className="d-flex" style={{ color: 'var(--shape)' }}>
-                <img
-                  src={moneyBagWhite}
-                  alt="crossHair"
-                  height="25"
-                  width="25"
-                />
-                <h2
-                  style={{
-                    fontSize: '12px',
-                    marginTop: '2%',
-                    marginLeft: '5px',
-                  }}
-                >
-                  Lucro garantido ou sua renovação é por nossa conta
-                </h2>
-              </div>
+            <div>
+              <img
+                src={crossHairWhite}
+                alt="crossHair"
+                height="25"
+                width="25"
+              />
+              <span>Pré bets e ao vivo</span>
             </div>
-            <hr
-              style={{ color: 'var(--shape)', height: '1px', opacity: '1' }}
-            />
+            <div>
+              <img src={faqWhite} alt="crossHair" height="25" width="25" />
+              <span>Suporte online</span>
+            </div>
+            <div>
+              <img src={presentationWhite} alt="chart" height="25" width="25" />
+              <span>Consultoria e conteúdo gratuitos</span>
+            </div>
+            <div>
+              <img src={barChartWhite} alt="crossHair" height="25" width="25" />
+              <span>Gestão de ricos e acompanhamento transparente</span>
+            </div>
+            <div>
+              <img src={trophyWhite} alt="trophy" height="25" width="25" />
+              <span>Eventos e prêmios</span>
+            </div>
+            <div>
+              <img src={moneyBagWhite} alt="crossHair" height="25" width="25" />
+              <span>Lucro garantido ou sua renovação é por nossa conta</span>
+            </div>
+            <hr />
             <div
               className="d-flex"
               style={{
@@ -263,9 +127,7 @@ export function Plans() {
               <h2 style={{ fontSize: '22px', marginTop: '13%' }}>,99/Mês</h2>
             </div>
             <div style={{ textAlign: 'center' }}>
-              <h6 style={{ fontSize: '12px', color: 'var(--shape)' }}>
-                Perfeito para pequenos negócios ou novos empresários
-              </h6>
+              <h6>Perfeito para pequenos negócios ou novos empresários</h6>
               <Button
                 style={{
                   color: 'var(--primary)',

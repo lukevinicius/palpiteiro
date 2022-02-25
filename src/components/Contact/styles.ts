@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Div = styled.div`
+export const Container = styled.div`
   padding: 0 0 100px 0;
   background: var(--primary);
 `;
