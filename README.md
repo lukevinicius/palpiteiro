@@ -1,46 +1,84 @@
-# Getting Started with Create React App
+<p align="center">
+   <img src="./src/assets/logos/logoHorizontalGreen.png" alt="palpiteiro" width="300"/>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">	
+   <a href="https://linkedin.com/in/lukevinicius/">
+      <img alt="Lucasvinicius" src="https://img.shields.io/badge/-lukevinicius-5965e0?style=flat&logo=Linkedin&logoColor=white" />
+   </a>
+  <img alt="Languages" src="https://img.shields.io/github/languages/count/lukevinicius/palpiteiro?color=%235963C5" />
+  <img alt="lastcommit" src="https://img.shields.io/github/last-commit/lukevinicius/palpiteiro?color=%235761C3" />
+  <img alt="License" src="https://img.shields.io/github/license/lukevinicius/palpiteiro?color=%235E69D7" />
+  <img alt="Issues" src="https://img.shields.io/github/issues/lukevinicius/palpiteiro?color=%235965E0">
+  <a href="mailto:lucasviniciusaalves@gmail.com">
+   <img alt="Email" src="https://img.shields.io/badge/-lucasviniciusaalves%40gmail.com-%23525DCB" />
+  </a>
+</p>
 
-## Available Scripts
+<p align="center">
+  🧝🏼‍♂️ The Palpiteiro project is a landing page for a vip sports betting tip group. Project developed for the O Palpiteiro  | <a href="https://www.opalpiteirovip.com">@opalpiteiro</a>
+</p>
 
-In the project directory, you can run:
+<div align="center">
+  <sub> Made with 💖 by
+    <a href="https://github.com/lukevinicius">Lucas vinicius.
+  </sub>
+</div>
 
-### `yarn start`
+# 📌 Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* [Screenshots](#camera-screenshot) 
+* [Technologies](#rocket-technologies) 
+* [How to Run](#computer-how-to-run)
+* [Issues](#bug-issues)
+* [Contributing](#sparkles-issues)
+* [License](#page_facing_up-license)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# :camera: Screenshots
+<div align="center">
+   <img src="./.github/screen1.png" width="400px">
+   <img src="./.github/screen2.png" width="400px">
+   <img src="./.github/screen3.png" width="400px">
+   <img src="./.github/screen4.png" width="400px">
+</div>
 
-### `yarn test`
+# :rocket: Technologies
+This project was made using the follow technologies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [Typescript](https://www.typescriptlang.org/)      
+* [React](https://reactjs.org/)      
+* [Styled Components](https://styled-components.com/)
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# :computer: How to run
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# Clone Repository
+$ git clone https://github.com/lukevinicius/palpiteiro.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+# Install Dependencies
+$ yarn
+# Run Aplication
+$ yarn dev
+```
+Go to http://localhost:3000/ to see the result.
 
-### `yarn eject`
+# :bug: Issues
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Create a <a href="https://github.com/lukevinicius/palpiteiro/issues">new issue report</a>, it will be an honor to be able to help you solve and further improve our application.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# :sparkles: Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Fork this repository;
+- Create a branch with your feature: `git checkout -b my-feature`;
+- Commit your changes: `git commit -m 'feat: My new feature'`;
+- Push to your branch: `git push origin my-feature`.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# :page_facing_up: License
 
-## Learn More
+This project is under the [MIT license](./LICENSE).
+Made with 💖 by [Lucas vinicius](https://linkedin.com/in/lukevinicius/). 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Thank you! 🌠
