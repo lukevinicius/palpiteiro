@@ -132,10 +132,9 @@ export function Plans() {
                 style={{
                   color: 'var(--primary)',
                   backgroundColor: 'var(--shape)',
-                  width: '60%',
                 }}
               >
-                <h2>EM BREVE</h2>
+                <h2 style={{ fontSize: '1rem' }}>EM BREVE</h2>
               </Button>
             </div>
           </CardDisabled>

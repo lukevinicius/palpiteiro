@@ -21,6 +21,7 @@ export const Card = styled.div`
   padding: 10px;
   border-radius: 7px;
   color: var(--shape);
+  margin-top: 1rem;
 
   div {
     span {
@@ -47,7 +48,7 @@ export const CardDisabled = styled.div`
   border-radius: 7px;
   filter: grayscale(100%);
   opacity: 0.45;
-  margin-top: 10px;
+  margin-top: 1rem;
 
   div {
     img {

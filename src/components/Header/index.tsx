@@ -18,18 +18,23 @@ export function Header() {
           id="responsive-navbar-nav"
           className="justify-content-end"
         >
-          <Nav style={{ alignItems: 'center' }}>
-            <Nav.Link href="#home" style={{ color: 'var(--primary)' }}>
+          <Nav style={{ alignItems: 'center', color: 'var(--primary)' }}>
+            <Nav.Link href="#home">
               <B>SOBRE</B>
             </Nav.Link>
-            <Nav.Link href="#planos" style={{ color: 'var(--primary)' }}>
+            <Nav.Link href="#planos">
               <B>PLANOS</B>
             </Nav.Link>
-            <Nav.Link href="#duvidas" style={{ color: 'var(--primary)' }}>
+            <Nav.Link href="#duvidas">
               <B>DUVIDAS FREQUENTES</B>
             </Nav.Link>
-            <Nav.Link href="#parceiro" style={{ color: 'var(--primary)' }}>
+            <Nav.Link href="#parceiro">
               <B>SEJA PARCEIRO</B>
+            </Nav.Link>
+            <Nav.Link href="#parceiro">
+              <Button style={{ background: 'none', color: 'var(--primary)' }}>
+                <B>GRUPO FREE</B>
+              </Button>
             </Nav.Link>
             <Nav.Link href="#planos">
               <Button>ASSINAR AGORA!</Button>

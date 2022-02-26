@@ -9,6 +9,8 @@ import { Plans } from '../../components/Plans';
 import { VideoApresentation } from '../../components/VideoApresentation';
 import { Div, DivGreen } from './styles';
 
+import mockupImg from '../../assets/images/mockup.png';
+
 export function Home() {
   const [width, setWidth] = useState(window.innerWidth);
 
@@ -25,14 +27,7 @@ export function Home() {
   return (
     <>
       <Div>
-        <div
-          style={{
-            position: 'absolute',
-            top: '50%',
-          }}
-        >
-          <h2 style={{ color: 'var(--primary)' }}>Site em desenvolvimento</h2>
-        </div>
+        <img src={mockupImg} alt="mockup" />
       </Div>
       <Benefits />
       <DivGreen>
