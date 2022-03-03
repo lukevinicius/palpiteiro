@@ -1,7 +1,6 @@
 import { Container, Content } from './styles';
 
 import vivaMetodo from '../../assets/images/vivaMetodo.png';
-import video1 from '../../assets/video/video1.mp4';
 
 interface widthProps {
   width: number;
@@ -16,7 +15,7 @@ export function VideoApresentation({ width }: widthProps) {
           width > 768 ? <img src={vivaMetodo} alt="vivaMetodo" /> : <div />
         }
         <iframe
-          src={video1}
+          src="https://www.youtube.com/embed/yaTutg-rnwU"
           frameBorder="0"
           allow="autoplay; encrypted-media"
           allowFullScreen

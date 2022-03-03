@@ -61,9 +61,10 @@ export function Plans() {
                 justifyContent: 'center',
               }}
             >
-              <h2 style={{ fontSize: '22px', marginTop: '13%' }}>R$</h2>
-              <h2 style={{ fontSize: '60px' }}>249</h2>
-              <h2 style={{ fontSize: '22px', marginTop: '13%' }}>,99/Mês</h2>
+              <h2 style={{ fontSize: '50px' }}>
+                <span style={{ fontSize: '22px' }}>R$ </span> 249
+                <span style={{ fontSize: '22px' }}>,99/Mês</span>
+              </h2>
             </div>
             <div style={{ textAlign: 'center' }}>
               <h6>Perfeito para pequenos negócios ou novos empresários</h6>
@@ -103,7 +104,7 @@ export function Plans() {
             </div>
             <div>
               <img src={barChartWhite} alt="crossHair" height="25" width="25" />
-              <span>Gestão de ricos e acompanhamento transparente</span>
+              <span>Gestão de riscos e acompanhamento transparente</span>
             </div>
             <div>
               <img src={trophyWhite} alt="trophy" height="25" width="25" />
@@ -120,11 +121,13 @@ export function Plans() {
                 color: 'var(--shape)',
                 textAlign: 'center',
                 justifyContent: 'center',
+                alignItems: 'end',
               }}
             >
-              <h2 style={{ fontSize: '22px', marginTop: '13%' }}>R$</h2>
-              <h2 style={{ fontSize: '60px' }}>249</h2>
-              <h2 style={{ fontSize: '22px', marginTop: '13%' }}>,99/Mês</h2>
+              <h2 style={{ fontSize: '50px' }}>
+                <span style={{ fontSize: '22px' }}>R$ </span> 249
+                <span style={{ fontSize: '22px' }}>,99/Mês</span>
+              </h2>
             </div>
             <div style={{ textAlign: 'center' }}>
               <h6>Perfeito para pequenos negócios ou novos empresários</h6>
@@ -132,9 +135,10 @@ export function Plans() {
                 style={{
                   color: 'var(--primary)',
                   backgroundColor: 'var(--shape)',
+                  width: '60%',
                 }}
               >
-                <h2 style={{ fontSize: '1rem' }}>EM BREVE</h2>
+                <h2>EM BREVE</h2>
               </Button>
             </div>
           </CardDisabled>

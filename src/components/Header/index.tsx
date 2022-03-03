@@ -1,5 +1,5 @@
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { B, Button } from './styles';
+import { B, Button, ButtonFree } from './styles';
 import LogoHorizontal from '../../assets/logos/logoHorizontalGreen.png';
 
 export function Header() {
@@ -31,10 +31,8 @@ export function Header() {
             <Nav.Link href="#parceiro">
               <B>SEJA PARCEIRO</B>
             </Nav.Link>
-            <Nav.Link href="#parceiro">
-              <Button style={{ background: 'none', color: 'var(--primary)' }}>
-                <B>GRUPO FREE</B>
-              </Button>
+            <Nav.Link href="https://t.me/opalpiteirofree2022">
+              <ButtonFree>GRUPO FREE</ButtonFree>
             </Nav.Link>
             <Nav.Link href="#planos">
               <Button>ASSINAR AGORA!</Button>

@@ -51,23 +51,19 @@ export const CardDisabled = styled.div`
   margin-top: 1rem;
 
   div {
-    img {
-      margin-bottom: 10px;
-    }
-
     span {
       font-size: 12px;
       font-weight: bold;
       margin-left: 0.5rem;
     }
 
-    hr {
-      height: 1px;
-      opacity: 1;
-    }
-
     h6 {
       font-size: 12px;
     }
+  }
+
+  hr {
+    height: 1px;
+    opacity: 1;
   }
 `;
