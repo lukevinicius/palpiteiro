@@ -2,16 +2,12 @@ import styled from 'styled-components';
 import backBrasil from '../../assets/images/backBrasil.png';
 
 export const Div = styled.div`
-  height: 100vh;
   text-align: center;
   align-items: center;
   justify-content: center;
-  /* @media screen and (max-width: 768px) {
-    padding: 20px 40px 20px 40px;
-  } */
-`;
-export const DivGreen = styled.div`
-  background: var(--primary);
+  @media screen and (min-width: 768px) {
+    height: 100vh;
+  }
 `;
 export const DivImage = styled.div`
   background-image: url(${backBrasil});

@@ -7,9 +7,10 @@ import { EasyPay } from '../../components/EasyPay';
 import { FAQ } from '../../components/FAQ';
 import { Plans } from '../../components/Plans';
 import { VideoApresentation } from '../../components/VideoApresentation';
-import { Div, DivGreen } from './styles';
+import { Div } from './styles';
 
 import mockupImg from '../../assets/images/mockup.png';
+import mockupMobileImg from '../../assets/images/mockupMobile.png';
 
 export function Home() {
   const [width, setWidth] = useState(window.innerWidth);
@@ -27,12 +28,14 @@ export function Home() {
   return (
     <>
       <Div>
-        <img src={mockupImg} alt="mockup" />
+        {width > 768 ? (
+          <img src={mockupImg} alt="mockup" />
+        ) : (
+          <img src={mockupMobileImg} width="400px" alt="mockup" />
+        )}
       </Div>
       <Benefits />
-      <DivGreen>
-        <VideoApresentation width={width} />
-      </DivGreen>
+      <VideoApresentation width={width} />
       <Country width={width} />
       <EasyPay />
       <Plans />
