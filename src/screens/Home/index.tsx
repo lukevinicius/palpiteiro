@@ -11,6 +11,7 @@ import { Div } from './styles';
 
 import mockupImg from '../../assets/images/mockup.png';
 import mockupMobileImg from '../../assets/images/mockupMobile.png';
+import { Proud } from './Proud';
 
 export function Home() {
   const [width, setWidth] = useState(window.innerWidth);
@@ -34,6 +35,7 @@ export function Home() {
           <img src={mockupMobileImg} width="400px" alt="mockup" />
         )}
       </Div>
+      <Proud />
       <Benefits />
       <VideoApresentation width={width} />
       <Country width={width} />
