@@ -18,19 +18,19 @@ export function EasyPay() {
       <div>
         <Row>
           <Col md={4}>
-            <Card>
+            <Card data-aos="flip-down" data-aos-duration="1000">
               <img src={pixPay} alt="pixpay" />
               <p>Pagamentos via Pix!</p>
             </Card>
           </Col>
           <Col md={4}>
-            <Card>
+            <Card data-aos="flip-down" data-aos-duration="1500">
               <img src={cards} alt="cards" />
               <p>Pagamentos via cartão de credito em até 12x sem juros</p>
             </Card>
           </Col>
           <Col md={4}>
-            <Card>
+            <Card data-aos="flip-down" data-aos-duration="2000">
               <img src={boleto} alt="boleto" />
               <p>Pagamentos via boleto</p>
             </Card>

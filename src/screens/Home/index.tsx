@@ -27,7 +27,7 @@ export function Home() {
 
   return (
     <>
-      <Div>
+      <Div data-aos="fade-down" data-aos-duration="500">
         {width > 768 ? (
           <img src={mockupImg} alt="mockup" />
         ) : (

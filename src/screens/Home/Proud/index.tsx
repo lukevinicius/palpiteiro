@@ -6,7 +6,7 @@ export function Proud() {
   return (
     <Container>
       <Content>
-        <div>
+        <div data-aos="fade-right">
           <h2>Orgulho do nosso resultado nos ultimos 12 meses.</h2>
           <p>
             Confira nossa planilha detalhada com todas as nossas entredas dos
@@ -16,7 +16,7 @@ export function Proud() {
             Ver planilha <FaFileCsv />
           </button>
         </div>
-        <div>
+        <div data-aos="fade-left">
           <img src={graphCsvImg} alt="grafico da planilha" />
         </div>
       </Content>

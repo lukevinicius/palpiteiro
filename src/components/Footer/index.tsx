@@ -28,10 +28,7 @@ export function Footer() {
         </H2>
       </div>
       <Attendance>
-        <h2>Atendimento online:</h2>
-        <p style={{ fontSize: '18px' }}>
-          Segunda a Sexta 8:00 - 17:00 Sábado 9:00 - 12:00
-        </p>
+        <h2>Atendimento online 24/7</h2>
         <div className="d-flex" style={{ marginTop: '20px' }}>
           <div>
             <a href="https://www.instagram.com/opalpiteirooficial/">

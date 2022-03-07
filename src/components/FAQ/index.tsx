@@ -14,7 +14,7 @@ export function FAQ() {
     },
     {
       title: 'Preciso entender de esporte?',
-      content: `Por mais que tenhamos gerado bons lucros desde o inicio do projeto e sempre fecharmos no positivo jamais garantiremos lucro. Porém como nos responsabilizamos com nosso negocio, em caso de negativarmos o mês nos comprometemos com sua renovação totalmente gratuita!  Fque siente que em renda variável e mercado de risco não existe lucro garantido. Quem te prometer isso está mentindo!`,
+      content: `Não! Você não precisa entender e nem acompanhar nada, basta conferir as dicas no grupo do Telegram, copiar e seguir nossa gestão.`,
     },
     {
       title: 'Posso cancelar meu plano a qualquer momento?',
@@ -50,7 +50,7 @@ export function FAQ() {
           // eslint-disable-next-line no-restricted-globals
           width > 1190 ? (
             <Col>
-              <img src={skinHatImg} alt="skinHat" />{' '}
+              <img data-aos="fade-right" src={skinHatImg} alt="skinHat" />{' '}
             </Col>
           ) : (
             <></>
