@@ -50,7 +50,12 @@ export function FAQ() {
           // eslint-disable-next-line no-restricted-globals
           width > 1190 ? (
             <Col>
-              <img data-aos="fade-right" src={skinHatImg} alt="skinHat" />{' '}
+              <img
+                data-aos="fade-right"
+                data-aos-delay="200"
+                src={skinHatImg}
+                alt="skinHat"
+              />{' '}
             </Col>
           ) : (
             <></>
