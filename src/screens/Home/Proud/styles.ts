@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   padding: 50px 80px;
+
   @media screen and (max-width: 768px) {
     width: 100%;
     padding: 20px 40px;
@@ -29,14 +30,13 @@ export const Content = styled.div`
     border: 0;
   }
 
-  @media screen and (max-width: 1212px) {
+  @media screen and (max-width: 1140px) {
     grid-template-columns: repeat(1, 1fr);
-    text-align: center;
   }
 
   @media screen and (max-width: 792px) {
     img {
-      width: 450px;
+      width: 350px;
     }
   }
 `;
