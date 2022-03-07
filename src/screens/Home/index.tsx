@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 
 import { Benefits } from '../../components/Benefits';
-import { Contact } from '../../components/Contact';
 import { Country } from '../../components/Country';
 import { EasyPay } from '../../components/EasyPay';
 import { FAQ } from '../../components/FAQ';
@@ -42,7 +41,6 @@ export function Home() {
       <EasyPay />
       <Plans />
       <FAQ />
-      <Contact />
     </>
   );
 }

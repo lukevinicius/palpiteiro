@@ -9,26 +9,21 @@ import skinHatImg from '../../assets/leprechaun/skinHat.png';
 export function FAQ() {
   const accordionData = [
     {
-      title: 'Section 1',
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
-      laborum cupiditate possimus labore, hic temporibus velit dicta earum
-      suscipit commodi eum enim atque at? Et perspiciatis dolore iure
-      voluptatem.`,
+      title: 'O lucro é garantido?',
+      content: `Por mais que tenhamos gerado bons lucros desde o inicio do projeto e sempre fecharmos no positivo jamais garantiremos lucro. Porém como nos responsabilizamos com nosso negocio, em caso de negativarmos o mês nos comprometemos com sua renovação totalmente gratuita!  Fque siente que em renda variável e mercado de risco não existe lucro garantido. Quem te prometer isso está mentindo!`,
     },
     {
-      title: 'Section 2',
-      content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam
-      reprehenderit nam assumenda voluptatem ut. Ipsum eius dicta, officiis
-      quaerat iure quos dolorum accusantium ducimus in illum vero commodi
-      pariatur? Impedit autem esse nostrum quasi, fugiat a aut error cumque
-      quidem maiores doloremque est numquam praesentium eos voluptatem amet!
-      Repudiandae, mollitia id reprehenderit a ab odit!`,
+      title: 'Preciso entender de esporte?',
+      content: `Por mais que tenhamos gerado bons lucros desde o inicio do projeto e sempre fecharmos no positivo jamais garantiremos lucro. Porém como nos responsabilizamos com nosso negocio, em caso de negativarmos o mês nos comprometemos com sua renovação totalmente gratuita!  Fque siente que em renda variável e mercado de risco não existe lucro garantido. Quem te prometer isso está mentindo!`,
     },
     {
-      title: 'Section 3',
-      content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto ducimus magnam accusantium corrupti
-      quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
-      dolor ut sequi minus iste? Quas?`,
+      title: 'Posso cancelar meu plano a qualquer momento?',
+      content: `Caso você não se adapte, tem até 7 dias para solicitar seu reembolso por nossos canais de suporte. Após 7 dias em caso de cancelamento não haverá nenhum ônus ou reembolso.`,
+    },
+    {
+      title: 'Posso cancelar meu plano a qualquer momento?',
+      content:
+        'Caso você não se adapte, tem até 7 dias para solicitar seu reembolso por nossos canais de suporte. Após 7 dias em caso de cancelamento não haverá nenhum ônus ou reembolso.',
     },
   ];
   const [width, setWidth] = useState(window.innerWidth);
