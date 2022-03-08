@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  padding: 50px 80px;
+  padding: 3rem 4rem;
   text-align: center;
 
   img {
@@ -10,10 +10,10 @@ export const Container = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    padding: 20px 40px;
+    padding: 1.5rem 2.5rem;
 
     img {
-      width: 400px;
+      width: 370px;
       text-align: center;
     }
   }

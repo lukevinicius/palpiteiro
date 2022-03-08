@@ -18,6 +18,10 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Montserrat', sans-serif;
     padding: 0;
     box-sizing: border-box;
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;      
+    user-select: none;
   }
   html {
     @media (max-width: 1080px) {

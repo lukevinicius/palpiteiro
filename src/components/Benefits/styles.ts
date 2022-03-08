@@ -2,9 +2,11 @@ import styled from 'styled-components';
 import skinLike from '../../assets/leprechaun/skinLike.png';
 
 export const Container = styled.div`
-  padding: 50px 80px;
+  padding: 3rem 4rem;
+  justify-content: center;
+  align-items: center;
   @media screen and (max-width: 768px) {
-    padding: 20px 40px;
+    padding: 1.5rem 2.5rem;
   }
 `;
 
@@ -20,7 +22,6 @@ export const Content = styled.div`
 export const ContentCard = styled.div`
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: repeat(3, 1fr);
 
   @media screen and (max-width: 968px) {
     grid-gap: 1rem;
@@ -29,7 +30,7 @@ export const ContentCard = styled.div`
 
   @media screen and (max-width: 768px) {
     grid-gap: 1rem;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 `;
 export const Card = styled.div`
@@ -37,7 +38,7 @@ export const Card = styled.div`
   padding: 1rem;
   border-radius: 7px;
   height: 190px;
-  width: 190px;
+  width: 100%;
 
   @media screen and (max-width: 768px) {
     text-align: center;

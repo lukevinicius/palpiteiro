@@ -40,7 +40,7 @@ export function Home() {
       <Country width={width} />
       <EasyPay />
       <Plans />
-      <FAQ />
+      <FAQ width={width} />
     </>
   );
 }

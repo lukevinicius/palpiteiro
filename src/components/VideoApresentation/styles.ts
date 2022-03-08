@@ -2,12 +2,12 @@ import styled from 'styled-components';
 import backVideo from '../../assets/images/backVideo.png';
 
 export const Container = styled.div`
-  padding: 50px 80px;
+  padding: 3rem 4rem;
   background-image: url(${backVideo});
   background-size: cover;
   background-repeat: no-repeat;
   @media screen and (max-width: 768px) {
-    padding: 20px 40px;
+    padding: 1.5rem 2.5rem;
   }
 `;
 

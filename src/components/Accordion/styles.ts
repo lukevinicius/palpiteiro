@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Div = styled.div`
+export const Container = styled.div`
   background-color: var(--primary);
   padding: 10px;
 `;
@@ -10,5 +10,5 @@ export const Button = styled.button`
   width: 100%;
   background-color: var(--primary);
   color: var(--shape);
-  border: 0px var(--primary);
+  border: 0;
 `;

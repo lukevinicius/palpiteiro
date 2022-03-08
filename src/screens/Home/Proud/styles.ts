@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  padding: 50px 80px;
+  padding: 3rem 4rem;
 
   @media screen and (max-width: 768px) {
     width: 100%;
-    padding: 20px 40px;
+    padding: 1.5rem 2.5rem;
   }
 `;
 export const Content = styled.div`
