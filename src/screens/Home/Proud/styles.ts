@@ -4,13 +4,12 @@ export const Container = styled.div`
   padding: 3rem 4rem;
 
   @media screen and (max-width: 768px) {
-    width: 100%;
     padding: 1.5rem 2.5rem;
   }
 `;
 export const Content = styled.div`
   display: grid;
-  grid-gap: 2rem;
+  grid-gap: 1rem;
   grid-template-columns: repeat(2, 1fr);
 
   h2 {
@@ -30,13 +29,17 @@ export const Content = styled.div`
     border: 0;
   }
 
+  img {
+    width: 100%;
+  }
+
   @media screen and (max-width: 1140px) {
     grid-template-columns: repeat(1, 1fr);
   }
 
   @media screen and (max-width: 792px) {
     img {
-      width: 350px;
+      width: 300px;
     }
   }
 `;
