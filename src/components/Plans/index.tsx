@@ -68,15 +68,17 @@ export function Plans() {
             </div>
             <div style={{ textAlign: 'center' }}>
               <h6>Perfeito para pequenos negócios ou novos empresários</h6>
-              <Button
-                style={{
-                  color: 'var(--primary)',
-                  backgroundColor: 'var(--shape)',
-                  width: '60%',
-                }}
-              >
-                <h2>ASSINE JÁ</h2>
-              </Button>
+              <a href="https://pay.hotmart.com/I62162491J">
+                <Button
+                  style={{
+                    color: 'var(--primary)',
+                    backgroundColor: 'var(--shape)',
+                    width: '60%',
+                  }}
+                >
+                  <h2>ASSINE JÁ</h2>
+                </Button>
+              </a>
             </div>
           </Card>
         </Col>
