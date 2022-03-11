@@ -6,14 +6,14 @@ import {
   FaYoutube,
 } from 'react-icons/fa';
 import LogoHorizontal from '../../assets/logos/logoHorizontalGreen.png';
-import { Attendance, Container, H2 } from './styles';
+import { Attendance, Container } from './styles';
 
 export function Footer() {
   return (
     <Container>
       <div>
         <img src={LogoHorizontal} alt="Logo" />
-        <H2 style={{ textAlign: 'justify' }}>
+        <h2>
           Os resultados referentes ao conteúdo dos serviços de TIP’s dos grupos
           VIP da Lance Milionário são avaliados e comprovados por nossos alunos.
           Não garantimos resultados IGUAIS para todos, uma vez que se trata de
@@ -21,11 +21,21 @@ export function Footer() {
           de banca para garantir um pouco mais de segurança sobre o capital dos
           alunos utilizados em suas casas de apostas. Não nos responsabilizados
           por eventuais perdas.
-        </H2>
-        <H2>
+        </h2>
+        <h2>
+          Esse produto é comercializado com apoio da Hotmart. A plataforma não
+          faz controle editorial prévio dos produtos comercializados, nem avalia
+          a tecnicidade e experiência daqueles que os produzem. A existência de
+          um produto e sua aquisição, por meio da plataforma, não podem ser
+          consideradas como garantia de qualidade de conteúdo e resultado, em
+          qualquer hipótese. Ao adquiri-lo, o comprador declara estar ciente
+          dessas informações. Os termos e políticas da Hotmart podem ser
+          acessados aqui, antes mesmo da conclusão da compra.
+        </h2>
+        <h2>
           &copy; {new Date().getFullYear()} Todos os direitos reservados - O
           Palpiteiro
-        </H2>
+        </h2>
       </div>
       <Attendance>
         <h2>Atendimento online 24/7</h2>

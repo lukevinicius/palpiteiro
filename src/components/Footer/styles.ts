@@ -18,6 +18,13 @@ export const Container = styled.div`
     color: var(--primary);
     margin-right: 1rem;
   }
+
+  h2 {
+    color: var(--text);
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    text-align: justify;
+  }
 `;
 export const Attendance = styled.div`
   h2 {
@@ -29,10 +36,4 @@ export const Attendance = styled.div`
     font-weight: bold;
     color: var(--text);
   }
-`;
-
-export const H2 = styled.h2`
-  color: var(--text);
-  font-size: 1rem;
-  margin-top: 1.5rem;
 `;
