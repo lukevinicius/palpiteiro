@@ -1,5 +1,5 @@
 import { Col, Row } from 'react-bootstrap';
-import { Card, CardDisabled, Div, H2 } from './styles';
+import { Card, Div, H2 } from './styles';
 
 import logoPro from '../../assets/logos/logoPro.png';
 // import logoEsports from '../../assets/logos/logoEsports.png';
@@ -33,23 +33,23 @@ export function Plans() {
               <span>Pré bets e ao vivo</span>
             </div>
             <div>
-              <img src={faqWhite} alt="crossHair" height="25" width="25" />
+              <img src={faqWhite} alt="crossHair" />
               <span>Suporte online</span>
             </div>
             <div>
-              <img src={presentationWhite} alt="chart" height="25" width="25" />
+              <img src={presentationWhite} alt="chart" />
               <span>Consultoria e conteúdo gratuitos</span>
             </div>
             <div>
-              <img src={barChartWhite} alt="crossHair" height="25" width="25" />
+              <img src={barChartWhite} alt="crossHair" />
               <span>Gestão de riscos e acompanhamento transparente</span>
             </div>
             <div>
-              <img src={trophyWhite} alt="trophy" height="25" width="25" />
+              <img src={trophyWhite} alt="trophy" />
               <span>Eventos e prêmios</span>
             </div>
             <div>
-              <img src={moneyBagWhite} alt="crossHair" height="25" width="25" />
+              <img src={moneyBagWhite} alt="crossHair" />
               <span>Lucro garantido ou sua renovação é por nossa conta</span>
             </div>
             <hr />
@@ -68,7 +68,7 @@ export function Plans() {
             </div>
             <div style={{ textAlign: 'center' }}>
               <h6>Perfeito para pequenos negócios ou novos empresários</h6>
-              <a href="https://pay.hotmart.com/I62162491J">
+              <a href="https://go.hotmart.com/I62162491J?dp=1">
                 <Button
                   style={{
                     color: 'var(--primary)',

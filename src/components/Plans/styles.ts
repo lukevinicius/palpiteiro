@@ -10,28 +10,33 @@ export const Div = styled.div`
 export const H2 = styled.b`
   color: var(--primary);
   text-align: justify;
-  font-size: 80px;
+  font-size: 5rem;
   line-height: 1;
   @media screen and (max-width: 768px) {
-    font-size: 36px;
+    font-size: 2.25rem;
   }
 `;
 export const Card = styled.div`
   background: var(--primary);
-  padding: 10px;
+  padding: 0.5rem;
   border-radius: 7px;
   color: var(--shape);
   margin-top: 1rem;
 
   div {
     span {
-      font-size: 12px;
+      font-size: 1.25rem;
       font-weight: bold;
       margin-left: 0.5rem;
     }
 
+    img {
+      height: 1.5rem;
+      width: 1.5rem;
+    }
+
     h6 {
-      font-size: 12px;
+      font-size: 1.25rem;
     }
   }
 
@@ -44,7 +49,7 @@ export const Card = styled.div`
 export const CardDisabled = styled.div`
   background: var(--primary);
   color: var(--shape);
-  padding: 10px;
+  padding: 0.5rem;
   border-radius: 7px;
   filter: grayscale(100%);
   opacity: 0.45;
@@ -52,13 +57,13 @@ export const CardDisabled = styled.div`
 
   div {
     span {
-      font-size: 12px;
+      font-size: 1.25rem;
       font-weight: bold;
       margin-left: 0.5rem;
     }
 
     h6 {
-      font-size: 12px;
+      font-size: 1.25rem;
     }
   }
 

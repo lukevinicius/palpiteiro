@@ -34,7 +34,7 @@ export function Header() {
             <Nav.Link href="https://t.me/opalpiteirofree2022">
               <ButtonFree>GRUPO FREE</ButtonFree>
             </Nav.Link>
-            <Nav.Link href="https://pay.hotmart.com/I62162491J">
+            <Nav.Link href="https://go.hotmart.com/I62162491J?dp=1">
               <Button>ASSINAR AGORA!</Button>
             </Nav.Link>
           </Nav>
