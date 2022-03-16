@@ -28,7 +28,7 @@ export function Header() {
             <Nav.Link href="#duvidas">
               <B>DUVIDAS FREQUENTES</B>
             </Nav.Link>
-            <Nav.Link href="#parceiro">
+            <Nav.Link href="https://app-vlc.hotmart.com/market/details?producerUcode=907cd824-9109-46ad-8ba6-2f4dc06f2344&productUcode=51e1c936-c4b9-4aac-9ad1-5e528a98b6e5&bookmarked=false">
               <B>SEJA PARCEIRO</B>
             </Nav.Link>
             <Nav.Link href="https://t.me/opalpiteirofree2022">
