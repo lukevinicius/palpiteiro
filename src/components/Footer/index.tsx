@@ -14,15 +14,6 @@ export function Footer() {
       <div>
         <img src={LogoHorizontal} alt="Logo" />
         <h2>
-          Os resultados referentes ao conteúdo dos serviços de TIP’s dos grupos
-          VIP da Lance Milionário são avaliados e comprovados por nossos alunos.
-          Não garantimos resultados IGUAIS para todos, uma vez que se trata de
-          um mercado de renda variável e por isso criamos nosso método de gestão
-          de banca para garantir um pouco mais de segurança sobre o capital dos
-          alunos utilizados em suas casas de apostas. Não nos responsabilizados
-          por eventuais perdas.
-        </h2>
-        <h2>
           Esse produto é comercializado com apoio da Hotmart. A plataforma não
           faz controle editorial prévio dos produtos comercializados, nem avalia
           a tecnicidade e experiência daqueles que os produzem. A existência de
