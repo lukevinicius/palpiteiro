@@ -21,15 +21,14 @@ export function Plans() {
         <Col md={3}>
           <Card>
             <div style={{ textAlign: 'center' }}>
-              <img src={logoPro} alt="logoPro" />
+              <img
+                src={logoPro}
+                alt="logoPro"
+                style={{ height: '5rem', width: '12rem' }}
+              />
             </div>
             <div>
-              <img
-                src={crossHairWhite}
-                alt="crossHair"
-                height="25"
-                width="25"
-              />
+              <img src={crossHairWhite} alt="crossHair" />
               <span>Pré bets e ao vivo</span>
             </div>
             <div>
@@ -61,9 +60,9 @@ export function Plans() {
                 justifyContent: 'center',
               }}
             >
-              <h2 style={{ fontSize: '50px' }}>
-                <span style={{ fontSize: '22px' }}>R$ </span> 249
-                <span style={{ fontSize: '22px' }}>,99/Mês</span>
+              <h2 style={{ fontSize: '3rem' }}>
+                <span style={{ fontSize: '1.5rem' }}>R$ </span> 249
+                <span style={{ fontSize: '1.5rem', margin: 0 }}>,99 /Mês</span>
               </h2>
             </div>
             <div style={{ textAlign: 'center' }}>
