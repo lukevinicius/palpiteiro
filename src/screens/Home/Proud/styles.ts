@@ -21,12 +21,19 @@ export const Content = styled.div`
     font-size: 1.5rem;
   }
 
-  button {
+  a {
+    text-decoration: none;
     background-color: var(--primary);
     padding: 1rem;
     color: var(--shape);
     font-weight: bold;
     border: 0;
+
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.8);
+    }
   }
 
   img {

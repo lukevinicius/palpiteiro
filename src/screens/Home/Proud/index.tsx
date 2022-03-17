@@ -12,9 +12,9 @@ export function Proud() {
             Confira nossa planilha detalhada com todas as nossas entredas dos
             nossos grupos vip e free!
           </p>
-          <button type="button">
+          <a href="https://docs.google.com/spreadsheets/d/1Ssts6sv9sUvgWZaF7x6QHI8beYRa9TlOY_I9xnuFeGE/edit?usp=sharing">
             Ver planilha <FaFileCsv />
-          </button>
+          </a>
         </div>
         <div data-aos="fade-left">
           <img src={graphCsvImg} alt="grafico da planilha" />
