@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const B = styled.b`
-  font-size: 14px;
+  font-size: 0.9rem;
   color: var(--primary);
 `;
 export const ButtonFree = styled.button`

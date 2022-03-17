@@ -22,11 +22,6 @@ export function FAQ({ width }: WidthProps) {
       title: 'Posso cancelar meu plano a qualquer momento?',
       content: `Caso você não se adapte, tem até 7 dias para solicitar seu reembolso por nossos canais de suporte. Após 7 dias em caso de cancelamento não haverá nenhum ônus ou reembolso.`,
     },
-    {
-      title: 'Posso cancelar meu plano a qualquer momento?',
-      content:
-        'Caso você não se adapte, tem até 7 dias para solicitar seu reembolso por nossos canais de suporte. Após 7 dias em caso de cancelamento não haverá nenhum ônus ou reembolso.',
-    },
   ];
 
   return (
