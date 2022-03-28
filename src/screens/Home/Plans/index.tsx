@@ -1,5 +1,5 @@
 import { Col, Row } from 'react-bootstrap';
-import { useParams } from 'react-router-dom';
+import { useEffect } from 'react';
 import { Card, Div, B } from './styles';
 
 import logoPro from '../../../assets/logos/logoPro.png';
@@ -73,7 +73,11 @@ export function Plans() {
                 Receba entradas exclusivas + Renovação gratuita em meses
                 negativos
               </h6>
-              <a href={`https://go.hotmart.com/${ref[1]}?dp=1`}>
+              <a
+                href={`https://go.hotmart.com/${
+                  ref[1] ? ref[1] : 'I62162491J'
+                }?dp=1`}
+              >
                 <Button
                   style={{
                     color: 'var(--primary)',
