@@ -3,16 +3,16 @@ import { useEffect, useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { Card, Container, Content, ContentCard, H2, SubTitle } from './styles';
 
-import pizzaGraph from '../../assets/icons/pizzaGraph.png';
-import faq from '../../assets/icons/faq.png';
-import crossHair from '../../assets/icons/crossHair.png';
-import chart from '../../assets/icons/chart.png';
-import presentations from '../../assets/icons/presentations.png';
-import trophy from '../../assets/icons/trophy.png';
-import medal from '../../assets/icons/medal.png';
-import calendar from '../../assets/icons/calendar.png';
-import barChart from '../../assets/icons/barChart.png';
-import skinLike from '../../assets/leprechaun/skinLike.png';
+import pizzaGraph from '../../../assets/icons/pizzaGraph.png';
+import faq from '../../../assets/icons/faq.png';
+import crossHair from '../../../assets/icons/crossHair.png';
+import chart from '../../../assets/icons/chart.png';
+import presentations from '../../../assets/icons/presentations.png';
+import trophy from '../../../assets/icons/trophy.png';
+import medal from '../../../assets/icons/medal.png';
+import calendar from '../../../assets/icons/calendar.png';
+import barChart from '../../../assets/icons/barChart.png';
+import skinLike from '../../../assets/leprechaun/skinLike.png';
 
 export function Benefits() {
   const [width, setWidth] = useState(window.innerWidth);

@@ -1,9 +1,9 @@
 import { Col, Row } from 'react-bootstrap';
 import { Card, Div, H2 } from './styles';
 
-import pixPay from '../../assets/easyPay/pixPay.png';
-import boleto from '../../assets/easyPay/boleto.png';
-import cards from '../../assets/easyPay/cards.png';
+import pixPay from '../../../assets/easyPay/pixPay.png';
+import boleto from '../../../assets/easyPay/boleto.png';
+import cards from '../../../assets/easyPay/cards.png';
 
 export function EasyPay() {
   return (

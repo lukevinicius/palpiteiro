@@ -1,8 +1,8 @@
 import { Col, Row } from 'react-bootstrap';
 import { Div, DivAccordion, Hr } from './styles';
-import { Accordion } from '../Accordion';
 
-import skinHatImg from '../../assets/leprechaun/skinHat.png';
+import skinHatImg from '../../../assets/leprechaun/skinHat.png';
+import { Accordion } from '../../../components/Accordion';
 
 interface WidthProps {
   width: number;
@@ -28,7 +28,7 @@ export function FAQ({ width }: WidthProps) {
     <Div id="duvidas">
       <h2>Ficou com alguma dúvida?</h2>
       <Row>
-        {width > 1190 ? (
+        {width > 1190 && (
           <Col>
             <img
               data-aos="fade-right"
@@ -37,8 +37,6 @@ export function FAQ({ width }: WidthProps) {
               alt="skinHat"
             />{' '}
           </Col>
-        ) : (
-          <></>
         )}
         <Col>
           <div style={{ padding: '80px 0' }}>

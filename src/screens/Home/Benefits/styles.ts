@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import skinLike from '../../assets/leprechaun/skinLike.png';
+import skinLike from '../../../assets/leprechaun/skinLike.png';
 
 export const Container = styled.div`
   padding: 3rem 4rem;

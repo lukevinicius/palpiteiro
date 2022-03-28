@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import backVideo from '../../assets/images/backVideo.png';
+import backVideo from '../../../assets/images/backVideo.png';
 
 export const Container = styled.div`
   padding: 3rem 4rem;

@@ -7,7 +7,7 @@ export const Div = styled.div`
     padding: 1.5rem 2.5rem;
   }
 `;
-export const H2 = styled.b`
+export const B = styled.b`
   color: var(--primary);
   text-align: justify;
   font-size: 5rem;
@@ -25,7 +25,6 @@ export const Card = styled.div`
 
   div {
     span {
-      font-size: 1.25rem;
       font-weight: bold;
       margin-left: 0.5rem;
     }

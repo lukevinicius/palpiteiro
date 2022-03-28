@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
 
-import { Benefits } from '../../components/Benefits';
-import { Country } from '../../components/Country';
-import { EasyPay } from '../../components/EasyPay';
-import { FAQ } from '../../components/FAQ';
-import { Plans } from '../../components/Plans';
-import { VideoApresentation } from '../../components/VideoApresentation';
+import { Benefits } from './Benefits';
+import { Country } from './Country';
+import { EasyPay } from './EasyPay';
+import { FAQ } from './FAQ';
+import { Plans } from './Plans';
+import { VideoApresentation } from './VideoApresentation';
 import { Div } from './styles';
 
 import mockupImg from '../../assets/images/mockup.png';
@@ -37,7 +37,7 @@ export function Home() {
       <Proud />
       <Benefits />
       <VideoApresentation width={width} />
-      <Country width={width} />
+      <Country />
       <EasyPay />
       <Plans />
       <FAQ width={width} />

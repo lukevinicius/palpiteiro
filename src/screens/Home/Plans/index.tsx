@@ -1,22 +1,25 @@
 import { Col, Row } from 'react-bootstrap';
-import { Card, Div, H2 } from './styles';
+import { useParams } from 'react-router-dom';
+import { Card, Div, B } from './styles';
 
-import logoPro from '../../assets/logos/logoPro.png';
-// import logoEsports from '../../assets/logos/logoEsports.png';
-import crossHairWhite from '../../assets/icons/crossHairWhite.png';
-import faqWhite from '../../assets/icons/faqWhite.png';
-import barChartWhite from '../../assets/icons/barChartWhite.png';
-import presentationWhite from '../../assets/icons/presentationWhite.png';
-import moneyBagWhite from '../../assets/icons/moneyBagWhite.png';
-import trophyWhite from '../../assets/icons/trophyWhite.png';
+import logoPro from '../../../assets/logos/logoPro.png';
+// import logoEsports from '../../../assets/logos/logoEsports.png';
+import crossHairWhite from '../../../assets/icons/crossHairWhite.png';
+import faqWhite from '../../../assets/icons/faqWhite.png';
+import barChartWhite from '../../../assets/icons/barChartWhite.png';
+import presentationWhite from '../../../assets/icons/presentationWhite.png';
+import moneyBagWhite from '../../../assets/icons/moneyBagWhite.png';
+import trophyWhite from '../../../assets/icons/trophyWhite.png';
 import { Button } from '../Contact/styles';
 
 export function Plans() {
+  const ref = window.location.href.split('=');
+
   return (
     <Div id="planos">
       <Row>
         <Col md={9}>
-          <H2>Lucro garantido ou sua renovação é por nossa conta</H2>
+          <B>Lucro garantido ou sua renovação é por nossa conta</B>
         </Col>
         <Col md={3}>
           <Card>
@@ -66,8 +69,11 @@ export function Plans() {
               </h2>
             </div>
             <div style={{ textAlign: 'center' }}>
-              <h6>Perfeito para pequenos negócios ou novos empresários</h6>
-              <a href="https://go.hotmart.com/I62162491J?dp=1">
+              <h6>
+                Receba entradas exclusivas + Renovação gratuita em meses
+                negativos
+              </h6>
+              <a href={`https://go.hotmart.com/${ref[1]}?dp=1`}>
                 <Button
                   style={{
                     color: 'var(--primary)',
