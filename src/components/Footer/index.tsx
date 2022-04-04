@@ -12,7 +12,7 @@ export function Footer() {
   return (
     <Container>
       <div>
-        <img src={LogoHorizontal} alt="Logo" />
+        <img src={LogoHorizontal} alt="Logo" loading="lazy" />
         <h2>
           Esse produto é comercializado com apoio da Hotmart. A plataforma não
           faz controle editorial prévio dos produtos comercializados, nem avalia

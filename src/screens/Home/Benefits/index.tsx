@@ -31,55 +31,55 @@ export function Benefits() {
           <ContentCard>
             <div>
               <Card>
-                <img src={pizzaGraph} alt="pizza graphic" />
+                <img src={pizzaGraph} alt="pizza graphic" loading="lazy" />
                 <p>Sem taxa de adesão.</p>
               </Card>
             </div>
             <div>
               <Card>
-                <img src={faq} alt="pizza graphic" />
+                <img src={faq} alt="pizza graphic" loading="lazy" />
                 <p>Suporte e FAQ online.</p>
               </Card>
             </div>
             <div>
               <Card>
-                <img src={crossHair} alt="pizza graphic" />
+                <img src={crossHair} alt="pizza graphic" loading="lazy" />
                 <p>Tips pré e ao vivo.</p>
               </Card>
             </div>
             <div>
               <Card>
-                <img src={chart} alt="pizza graphic" />
+                <img src={chart} alt="pizza graphic" loading="lazy" />
                 <p>Consultoria e conteúdos grátuitos.</p>
               </Card>
             </div>
             <div>
               <Card>
-                <img src={presentations} alt="pizza graphic" />
+                <img src={presentations} alt="pizza graphic" loading="lazy" />
                 <p>Gestão de ricos e acompanhamento transparente.</p>
               </Card>
             </div>
             <div>
               <Card>
-                <img src={trophy} alt="pizza graphic" />
+                <img src={trophy} alt="pizza graphic" loading="lazy" />
                 <p>Eventos e prêmios exclusivos.</p>
               </Card>
             </div>
             <div>
               <Card>
-                <img src={medal} alt="pizza graphic" />
+                <img src={medal} alt="pizza graphic" loading="lazy" />
                 <p>7 dias de garantia após assinatura.</p>
               </Card>
             </div>
             <div>
               <Card>
-                <img src={calendar} alt="pizza graphic" />
+                <img src={calendar} alt="pizza graphic" loading="lazy" />
                 <p>Lembrentes de renovação.</p>
               </Card>
             </div>
             <div>
               <Card>
-                <img src={barChart} alt="pizza graphic" />
+                <img src={barChart} alt="pizza graphic" loading="lazy" />
                 <p>Lucro garantido ou renovação do gratuita.</p>
               </Card>
             </div>

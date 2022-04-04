@@ -11,7 +11,13 @@ export function Header() {
     >
       <Container>
         <Navbar.Brand href="#home">
-          <img src={LogoHorizontal} alt="Logo" width="235" height="75" />
+          <img
+            src={LogoHorizontal}
+            alt="Logo"
+            width="235"
+            height="75"
+            loading="lazy"
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse

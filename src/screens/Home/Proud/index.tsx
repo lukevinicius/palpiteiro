@@ -17,7 +17,7 @@ export function Proud() {
           </a>
         </div>
         <div data-aos="fade-left">
-          <img src={graphCsvImg} alt="grafico da planilha" />
+          <img src={graphCsvImg} alt="grafico da planilha" loading="lazy" />
         </div>
       </Content>
     </Container>

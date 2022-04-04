@@ -1,5 +1,4 @@
 import { Col, Row } from 'react-bootstrap';
-import { useEffect } from 'react';
 import { Card, Div, B } from './styles';
 
 import logoPro from '../../../assets/logos/logoPro.png';
@@ -28,30 +27,31 @@ export function Plans() {
                 src={logoPro}
                 alt="logoPro"
                 style={{ height: '5rem', width: '12rem' }}
+                loading="lazy"
               />
             </div>
             <div>
-              <img src={crossHairWhite} alt="crossHair" />
+              <img src={crossHairWhite} alt="crossHair" loading="lazy" />
               <span>Pré bets e ao vivo</span>
             </div>
             <div>
-              <img src={faqWhite} alt="crossHair" />
+              <img src={faqWhite} alt="crossHair" loading="lazy" />
               <span>Suporte online</span>
             </div>
             <div>
-              <img src={presentationWhite} alt="chart" />
+              <img src={presentationWhite} alt="chart" loading="lazy" />
               <span>Consultoria e conteúdo gratuitos</span>
             </div>
             <div>
-              <img src={barChartWhite} alt="crossHair" />
+              <img src={barChartWhite} alt="crossHair" loading="lazy" />
               <span>Gestão de riscos e acompanhamento transparente</span>
             </div>
             <div>
-              <img src={trophyWhite} alt="trophy" />
+              <img src={trophyWhite} alt="trophy" loading="lazy" />
               <span>Eventos e prêmios</span>
             </div>
             <div>
-              <img src={moneyBagWhite} alt="crossHair" />
+              <img src={moneyBagWhite} alt="crossHair" loading="lazy" />
               <span>Lucro garantido ou sua renovação é por nossa conta</span>
             </div>
             <hr />

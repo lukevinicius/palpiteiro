@@ -22,6 +22,17 @@ export const GlobalStyle = createGlobalStyle`
     -moz-user-select: none;    
     -ms-user-select: none;      
     user-select: none;
+
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+      border-radius: 30px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: var(--primary);
+      border-radius: 30px;
+    }
   }
   html {
     @media (max-width: 1080px) {

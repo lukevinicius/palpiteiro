@@ -10,7 +10,9 @@ export function VideoApresentation({ width }: widthProps) {
   return (
     <Container>
       <Content>
-        {width > 768 && <img src={vivaMetodo} alt="vivaMetodo" />}
+        {width > 768 && (
+          <img src={vivaMetodo} alt="vivaMetodo" loading="lazy" />
+        )}
         <iframe
           src="https://www.youtube.com/embed/yaTutg-rnwU"
           frameBorder="0"

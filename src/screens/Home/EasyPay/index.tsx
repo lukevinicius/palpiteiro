@@ -23,7 +23,7 @@ export function EasyPay() {
               data-aos-delay="200"
               data-aos-duration="1500"
             >
-              <img src={pixPay} alt="pixpay" />
+              <img src={pixPay} alt="pixpay" loading="lazy" />
               <p>Pagamentos via Pix!</p>
             </Card>
           </Col>
@@ -33,7 +33,7 @@ export function EasyPay() {
               data-aos-duration="1500"
               data-aos-delay="400"
             >
-              <img src={cards} alt="cards" />
+              <img src={cards} alt="cards" loading="lazy" />
               <p>Pagamentos via cartão de credito em até 12x sem juros</p>
             </Card>
           </Col>
@@ -43,7 +43,7 @@ export function EasyPay() {
               data-aos-delay="600"
               data-aos-duration="1500"
             >
-              <img src={boleto} alt="boleto" />
+              <img src={boleto} alt="boleto" loading="lazy" />
               <p>Pagamentos via boleto</p>
             </Card>
           </Col>

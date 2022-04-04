@@ -35,6 +35,7 @@ export function FAQ({ width }: WidthProps) {
               data-aos-delay="200"
               src={skinHatImg}
               alt="skinHat"
+              loading="lazy"
             />{' '}
           </Col>
         )}

@@ -29,9 +29,14 @@ export function Home() {
     <>
       <Div data-aos="fade-down" data-aos-duration="500">
         {width > 768 ? (
-          <img src={mockupImg} alt="mockup" />
+          <img src={mockupImg} alt="mockup" loading="lazy" />
         ) : (
-          <img src={mockupMobileImg} width="400px" alt="mockup" />
+          <img
+            src={mockupMobileImg}
+            width="400px"
+            alt="mockup"
+            loading="lazy"
+          />
         )}
       </Div>
       <Proud />
